@@ -1,0 +1,22 @@
+{
+    "name": "mikedonkers/module-baseconfig",
+    "description": "BaseConfig module to collect all standard setup",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "mike.donkers@outlook.com",
+            "name": "Mike Donkers"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MikeDonkers\\BaseConfig\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

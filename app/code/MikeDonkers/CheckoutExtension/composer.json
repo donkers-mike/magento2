@@ -1,0 +1,22 @@
+{
+    "name": "mikedonkers/module-checkout-extension",
+    "description": "Checkout extension module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "mike.donkers@outlook.com",
+            "name": "Mike Donkers"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MikeDonkers\\BaseConfig\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

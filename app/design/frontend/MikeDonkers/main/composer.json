@@ -1,0 +1,12 @@
+{
+    "name": "MikeDonkers/main",
+    "description": "Main Magento 2 Theme",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "magento2-theme",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
